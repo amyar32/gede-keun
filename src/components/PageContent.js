@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import { ThemeContext } from "../context/ThemeContext";
+import { DarkModeContext } from "../context/DarkModeContext";
 
 export default function PageContent(props) {
-    const { isDarkMode } = useContext(ThemeContext);
+    const { darkState } = useContext(DarkModeContext);
     const styles = {
-        backgroundColor: isDarkMode ? "#322f3d" : "#cfdac8",
+        backgroundColor: darkState ? "#212121" : "white",
         height: "100vh",
     };
     return <div style={styles}>{props.children}</div>;

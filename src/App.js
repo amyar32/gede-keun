@@ -1,11 +1,17 @@
 import React from "react";
-import { ThemeProvider } from "./context/ThemeContext";
+import { DarkModeProvider } from "./context/DarkModeContext";
+import ThemeContext from "./styles/theme/ThemeContext";
 import PageContent from "./components/PageContent";
+import Form from "./components/Form";
 
 export default function App() {
     return (
-        <ThemeProvider>
-            <PageContent />
-        </ThemeProvider>
+        <DarkModeProvider>
+            <ThemeContext>
+                <PageContent>
+                    <Form />
+                </PageContent>
+            </ThemeContext>
+        </DarkModeProvider>
     );
 }
