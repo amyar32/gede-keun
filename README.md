@@ -1,7 +1,6 @@
 # Gedekeun
 
-Tools membesarkan kepunyaan anda (gambar)
-
+Tools untuk membesarkan kepunyaan anda (gambar)..\
 FSRCNN API - https://github.com/cytopz/superres-api.\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
