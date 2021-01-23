@@ -2,6 +2,9 @@
 
 Tools untuk membesarkan kepunyaan anda (gambar). Untuk memenuhi tugas Sistem Multimedia UIN Sunan Gunung Djati Bandung. 
 
+Untuk menjalankan App ini secara lokal, pastikan FSRCNN API di bawah sudah aktif dengan port `9000`. \
+Lalu eksekusi script `npm start` dalam directory.
+
 GEDE-KEUN - Amin Yarits Firdaus. \
 FSRCNN API - https://github.com/cytopz/superres-api. \
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
